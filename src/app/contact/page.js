@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaPhoneSquareAlt } from "react-icons/fa";
 
-export default function page() {
+export default function Contactpage() {
   const form = useRef();
   const [success,setSuccess] = useState(false);
 

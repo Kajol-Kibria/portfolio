@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div className=' sm:flex items-center w-[80%] mx-auto h-[calc(100vh-6rem)]'>
       <div className='sm:w-[50%]'>
-        <Image className='hidden sm:block rounded-xl bg-rose-50 pt-4 mt-20 mb-5' src='/images/avatar.png' width={300} height={300}/>
+        <Image className='hidden sm:block rounded-xl bg-rose-50 pt-4 mt-20 mb-5' src='/images/avatar.png' alt='avatar-image' width={300} height={300}/>
         <h1 className='text-3xl font-bold py-4'>BIOGRAPHY</h1>
         <p className='text-xl text-gray-800 sm:w-[70%]'>I want to dive deep into the sea of web development.<br/>Learnig new technologys and build some real world and usefull web applications.</p>
         <Link href='/contact'><button className='hidden sm:block my-5 w-44 h-16 border border-gray-800 rounded-xl bg-gray-800 text-white hover:bg-rose-50 hover:text-gray-800 transition-all duration-300'>Contact Me</button> </Link>
